@@ -1,0 +1,18 @@
+// math.js
+// function add(a, b) {
+//   return a + b;
+// }
+
+// function sub(a, b) {
+//   return a - b;
+// }
+// // module.exports = add;  this will override the fuction
+// // module.exports = sub;
+// module.exports = {
+//   addfn: add,
+//   sub
+//}
+
+exports.add = (a, b) => a + b;
+
+exports.sub = (a, b) => a - b;
